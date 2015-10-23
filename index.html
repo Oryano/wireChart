@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Understanding the net</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="sketch.js" type="text/javascript"></script>
+    <script src="classifier.js" type="text/javascript"></script>
+    <script src="libraries/Chart.js"></script>
+
+    <style>
+      body {
+        padding: 5%;
+      }
+
+      .file {
+        margin-top: 24px;
+        font-weight: bold;
+      }
+
+      .text {
+        border-style: solid;
+        border-width: 1px;
+        padding: 20px;
+        margin-bottom: 12px;
+      }
+
+      .container {
+        padding: 48px;
+        width: 800px;
+      }
+
+      .drop_zone {
+        padding: 20px;
+        border-style: dotted;
+        text-align: center;
+        margin-right: 8px;
+        display: inline;
+      }
+
+    </style>
+
+  </head>
+    <body>
+
+        <h1>WireChart</h1>
+
+        <p id="buttonp">
+        <button id = "showChart_1">Show Line chart</button>
+        </p>
+
+        <canvas id="activity" width="800" height="400"></canvas>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>   
+        <p id="buttonp">
+        <button id = "showChart_2">Show Radar chart</button>
+        </p>
+        <canvas id="myRadarChart" width="600" height="600"></canvas>
+
+
+
+
+    </body>
+</html>
+
